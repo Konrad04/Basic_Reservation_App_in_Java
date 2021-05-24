@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="tBilety_r" alignment="0" pref="150" max="32767" attributes="0"/>
+                                  <Component id="tEmail_r" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="tId_koncertu_r" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="tId_r" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="bSzukaj_r" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bUsun_r" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bZmien_r" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel4" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" pref="120" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bPoprzedni_r" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="bNastepny_r" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="136" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="tId_Szukaj_r" max="32767" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="160" max="-2" attributes="0"/>
+                  <Component id="tId_Usun_r" max="32767" attributes="0"/>
+                  <Component id="jLabel6" pref="168" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="98" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tId_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bZmien_r" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tId_koncertu_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bUsun_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tId_Usun_r" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="13" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tEmail_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tId_Szukaj_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bSzukaj_r" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="tBilety_r" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bPoprzedni_r" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bNastepny_r" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="tId_r">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tId_koncertu_r">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tEmail_r">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tBilety_r">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Rezerwacji"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Koncertu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Liczba bilet&#xf3;w"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tId_Szukaj_r">
+    </Component>
+    <Component class="javax.swing.JButton" name="bSzukaj_r">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Szukaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bSzukaj_rActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bUsun_r">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usu&#x144;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bUsun_rActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bZmien_r">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zmie&#x144;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bZmien_rActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bPoprzedni_r">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poprzedni"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPoprzedni_rActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bNastepny_r">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nast&#x119;pny"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bNastepny_rActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Szukanie po ID Rezerwacji"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tId_Usun_r">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usuwanie po ID Rezerwacji"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
